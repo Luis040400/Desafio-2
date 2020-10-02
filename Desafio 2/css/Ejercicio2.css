@@ -1,0 +1,18 @@
+#cabeza{
+ background-color:black;
+ color: white;
+ text-align: center;
+ font-size: 25px;
+}
+#sugerencias{
+    padding: 25px 25px 10px 10px;
+}
+#tpsuger{
+    text-align: left;
+}
+#ttp{
+    font-size: 14px;
+    color: red;
+    padding: 10px;
+    display: inline-block;
+}

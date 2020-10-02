@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Ejercicio2.css">
+    <title>Orden de Pollo</title>
+</head>
+
+<body>
+    <div id="cabeza">
+        <h1>Orden de Pollo</h1>
+    </div>
+    <fieldset>
+        <legend>Combos y Productos.</legend>
+        <div id="combos">
+            <p>Combos:</p>
+            <input type="radio"  id="supercombo" value="7.25"> Super Combo
+            <input type="radio"  id="combopersonal" value="5.75"> Combo Personal
+            <input type="radio"  id="comboinfantil" value="3.50">Combo infantil
+        </div>
+        <p>Productos:</p>
+        <div id="productos">
+
+            <input type="checkbox"  id="ensalada" value="1.50">Ensalada
+            <input type="checkbox"  id="papafrita" value="1.25">Papa Frita
+            <input type="checkbox"  id="ppgrande" value="1.75"> Pieza de pollo grande
+            <input type="checkbox"  id="ppmediana" value="1.50">Pieza de pollo mediana
+            <input type="checkbox"  id="pppequeña" value="1.25"> Pieza de pollo pequeña
+            <input type="checkbox"  id="bgrande" value="1.50"> Bebida grande
+            <input type="checkbox"  id="bmediana" value="1.25"> Bebida mediana
+            <input type="checkbox"  id="bpequeña" value="1.00">Bebida pequeña
+            <input type="checkbox"  id="cafe" value="0.50"> Café
+            <input type="checkbox"  id="postre" value="1.25">Postre
+        </div>
+        <h2  onmouseover="poner()" onmouseout="quitar()">Sugerencias: <p id="ttp"></p></h2>
+        <div id="sugerencias">
+            <div id="textsuge">
+                <textarea id="sugerencia" rows="4" cols="50">
+
+                </textarea>
+            </div>
+        </div>
+        <div id="pie">
+            <p>Total a pagar: $ <input type="text" name="total" id="total"></p>
+            <input type="button" value="Submit" onclick="total()">
+
+        </div>
+    </fieldset>
+    <script src="js/ejercicio2.js"></script>
+   
+</body>
+
+</html>
